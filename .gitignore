@@ -1,0 +1,48 @@
+# venv
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest / build
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# streamlit
+.streamlit/
+
+# data raw (evita subir um monte de JSON bruto)
+data/raw/
+
+# outputs
+data/processed/gastos_processados.csv
+data/processed/quality_report.json
+
+# env
+.env
+
+# VS Code (opcional: ignore tudo ou só arquivos locais)
+.vscode/
+
+# logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# coverage (se um dia você usar)
+.coverage
+htmlcov/
+coverage.xml
+
+# Jupyter (se usar notebook depois)
+.ipynb_checkpoints/
+
+# mypy / ruff / pyright (se você usar depois)
+.mypy_cache/
+.ruff_cache/
+.pyright/
