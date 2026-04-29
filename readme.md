@@ -66,7 +66,7 @@ python -m pip install --upgrade pip
 ## 2) Instalar dependências
 
 ```
-python -m pip install pandas numpy requests streamlit pydantic python-dotenv pytest
+python -m pip install -r requirements.txt
 ```
 
 Dica: use sempre python -m pip (evita problemas com pip.exe no Windows).
