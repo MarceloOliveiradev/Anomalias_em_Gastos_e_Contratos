@@ -20,16 +20,27 @@ Projeto em Python que:
 
 radar-anomalias/
 ├─ data/
+
 │ ├─ processed/ # arquivos gerados (CSV e relatório)
+
 │ ├─ raw/
+
 │ │ └─ contratos/ # JSON bruto (cache) da API ComprasNet
+
 │ └─ samples/
+
 │ └─ sample_gastos.csv # dataset offline para demo
+
 ├─ src/
+
 │ ├─ app/ # Streamlit dashboard
+
 │ ├─ ingestion/ # Coleta (ComprasNet) + pipeline
+
 │ ├─ transform/ # Padronização + qualidade
+
 │ └─ analytics/ # Detecção de anomalias
+
 └─ tests/
 
 ---
@@ -103,9 +114,13 @@ python -c "from src.ingestion.run_pipeline import run_pipeline; print(run_pipeli
 No dashboard:
 
 Clique em Rodar pipeline agora (para atualizar os dados)
+
 Use Filtros (opcional)
+
 Configure o agrupamento (ex.: mes + fornecedor ou mes + orgao)
+
 Clique em Detectar anomalias
+
 Baixe o resultado em CSV no botão de download
 
 ## 6) Rodar testes
