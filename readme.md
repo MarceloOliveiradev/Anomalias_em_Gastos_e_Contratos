@@ -105,7 +105,7 @@ Se você quiser gerar o CSV e o relatório sem abrir o dashboard:
 python -c "from src.ingestion.run_pipeline import run_pipeline; print(run_pipeline())"
 ```
 
-# Saídas geradas:
+### Saídas geradas:
 
 - data/processed/gastos_processados.csv
 - data/processed/quality_report.json
