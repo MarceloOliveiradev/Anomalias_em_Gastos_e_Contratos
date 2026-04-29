@@ -19,6 +19,7 @@ Projeto em Python que:
 ## Estrutura do projeto
 
 radar-anomalias/
+
 ├─ data/
 
 │ ├─ processed/ # arquivos gerados (CSV e relatório)
